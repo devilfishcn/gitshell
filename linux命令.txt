@@ -1,1 +1,4 @@
 tar -xzvf thrift-0.10.0.tar.gz
+
+netstat -nt |grep ^tcp | awk '{print $NF }' | sort -nr | uniq -c
+
