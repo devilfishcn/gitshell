@@ -1,2 +1,2 @@
 name='wangxiaofei'
-print 'hello ',$name
+echo 'hello ',$name
